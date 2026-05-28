@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contatti | Dott.ssa Anna Businaro</title>
+  <meta name="description" content="Contatta la Dott.ssa Anna Businaro per medicina generale, medicina estetica, informazioni e prenotazioni." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/global.css" />
+  <link rel="stylesheet" href="../assets/css/contatti.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="brand" aria-label="Vai alla home della Dott.ssa Anna Businaro">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="../images/logo.png" alt="Dott.ssa Anna Businaro" class="brand-image" />
+        </span>
+        <span class="brand-text">
+          <strong>Dott.ssa Anna Businaro</strong>
+          <small>Medicina generale e medicina estetica</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigazione principale">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principale">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Apri il menu</span>
+        </button>
+        <ul id="menu-principale" class="nav-list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./chi-sono.html">Chi sono</a></li>
+          <li><a href="./medicina-generale.html">Medicina generale</a></li>
+          <li><a href="./medicina-estetica.html">Medicina estetica</a></li>
+          <li><a href="./contatti.html" aria-current="page">Contatti</a></li>
+          <li>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Attiva tema scuro">
+              <span aria-hidden="true">◐</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <section class="contact-page">
+      <div class="container">
+        <div class="contact-hero">
+          <p class="eyebrow">Contatti</p>
+          <h1>Contatta lo studio</h1>
+          <p class="hero-text">
+            Scegli la sede di riferimento oppure inviaci una richiesta generale tramite il form.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <article class="contact-card">
+            <div class="contact-card-head">
+              <p class="eyebrow">Medicina generale</p>
+              <h2>Largo Traiano 16</h2>
+              <p>35036 Montegrotto Terme (PD)</p>
+            </div>
+
+            <div class="map-wrap">
+              <iframe
+                title="Mappa studio di medicina generale"
+                src="https://www.google.com/maps?q=Largo+Traiano+16,+35036+Montegrotto+Terme&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+            </div>
+
+            <a
+              class="map-link"
+              href="https://www.google.com/maps?q=Largo+Traiano+16,+35036+Montegrotto+Terme"
+              target="_blank"
+              rel="noopener nofollow">
+              Apri in Google Maps
+            </a>
+          </article>
+
+          <article class="contact-card">
+            <div class="contact-card-head">
+              <p class="eyebrow">Medicina estetica</p>
+              <h2>Via Battaglia 71/C</h2>
+              <p>Albignasego (PD)</p>
+            </div>
+
+            <div class="map-wrap">
+              <iframe
+                title="Mappa studio di medicina estetica"
+                src="https://www.google.com/maps?q=Via+Battaglia+71%2FC,+Albignasego&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+            </div>
+
+            <a
+              class="map-link"
+              href="https://www.google.com/maps?q=Via+Battaglia+71%2FC,+Albignasego"
+              target="_blank"
+              rel="noopener nofollow">
+              Apri in Google Maps
+            </a>
+          </article>
+        </div>
+
+        <div class="spacer-medium" role="presentation"></div>
+
+        <section class="contact-form-section">
+          <div class="contact-form-head">
+            <p class="eyebrow">Scrivici</p>
+            <h2>Richiesta generale</h2>
+            <p>
+              Compila il modulo per informazioni, richiesta ricetta, marketing oppure altre necessità.
+            </p>
+          </div>
+
+          <form class="contact-form" id="contact-form" action="#" method="post" novalidate>
+            <div class="form-row">
+              <label for="contact-name">Nome e cognome</label>
+              <input type="text" id="contact-name" name="name" autocomplete="name" required>
+            </div>
+
+            <div class="form-row">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="email" autocomplete="email" required>
+            </div>
+
+            <div class="form-row">
+              <label for="contact-phone">Telefono</label>
+              <input type="tel" id="contact-phone" name="phone" autocomplete="tel">
+            </div>
+
+            <div class="form-row">
+              <label for="contact-type">Tipo di richiesta</label>
+              <select id="contact-type" name="request_type" required>
+                <option value="" selected disabled>Seleziona una voce</option>
+                <option value="informazioni">Informazioni</option>
+                <option value="ricetta">Richiesta ricetta</option>
+                <option value="marketing">Marketing</option>
+                <option value="altro">Altro</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <label for="contact-message">Messaggio</label>
+              <textarea id="contact-message" name="message" rows="6" required></textarea>
+            </div>
+
+            <label class="form-check">
+              <input type="checkbox" id="contact-privacy" name="privacy" required>
+              <span>Ho letto e accetto la privacy policy.</span>
+            </label>
+
+            <button type="submit" class="btn btn-primary">Invia richiesta</button>
+
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <p class="footer-brand">Dott.ssa Anna Businaro</p>
+        <p class="footer-text">Medico di medicina generale e medico estetico. Qui trovi informazioni utili sui servizi, sui contatti e sulle prenotazioni.</p>
+      </div>
+      <div class="footer-col">
+        <p class="footer-label">Sezioni principali</p>
+        <ul class="footer-links" role="list">
+          <li><a href="./medicina-generale.html">Medicina generale</a></li>
+          <li><a href="./medicina-estetica.html">Medicina estetica</a></li>
+          <li><a href="./prenotazioni.html">Prenotazioni</a></li>
+          <li><a href="./contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="footer-label">Social</p>
+        <ul class="footer-links" role="list">
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="MioDottore">MioDottore</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <a href="./privacy-policy.html">Privacy Policy</a>
+      <a href="./cookie-policy.html">Cookie Policy</a>
+    </div>
+  </footer>
+
+  <script src="../assets/js/global.js" defer></script>
+  <script src="../assets/js/contatti.js" defer></script>
+</body>
+</html>

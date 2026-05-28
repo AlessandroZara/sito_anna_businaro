@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medicina generale | Dott.ssa Anna Businaro</title>
+  <meta name="description" content="Orari ambulatorio, informazioni utili, prenotazione visita guidata e richiesta farmaci per la Dott.ssa Anna Businaro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/global.css" />
+  <link rel="stylesheet" href="../assets/css/medicina-generale.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="brand" aria-label="Vai alla home della Dott.ssa Anna Businaro">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="../images/logo.png" alt="Dott.ssa Anna Businaro" class="brand-image" />
+        </span>
+        <span class="brand-text">
+          <strong>Dott.ssa Anna Businaro</strong>
+          <small>Medicina generale e medicina estetica</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigazione principale">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principale">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Apri il menu</span>
+        </button>
+        <ul id="menu-principale" class="nav-list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./chi-sono.html">Chi sono</a></li>
+          <li><a href="./medicina-generale.html" aria-current="page">Medicina generale</a></li>
+          <li><a href="./medicina-estetica.html">Medicina estetica</a></li>
+          <li><a href="./contatti.html">Contatti</a></li>
+          <li>
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Attiva tema scuro">
+              <span aria-hidden="true">◐</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div>
+          <p class="eyebrow">Medicina generale</p>
+          <h1>Informazioni, orari e richiesta appuntamenti per i miei assistiti.</h1>
+          <p class="lead">
+            Qui trovi prima le informazioni pratiche, poi la prenotazione guidata della visita ambulatoriale
+            e infine la richiesta farmaci separata.
+          </p>
+        </div>
+        <aside class="hero-panel">
+          <h2>Accesso rapido</h2>
+          <ul>
+            <li><a href="#orari">Orari ambulatorio</a></li>
+            <li><a href="#assistito">Come diventare assistito</a></li>
+            <li><a href="#info-utili">Informazioni utili</a></li>
+            <li><a href="#prenotazione">Prenotazione visita</a></li>
+            <li><a href="#farmaci">Richiesta farmaci</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-block" id="orari">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Orari ambulatorio</p>
+          <h2>Giorni e fasce orarie di ricevimento</h2>
+        </div>
+        <div class="schedule-grid">
+          <article class="info-card"><h3>Lunedì, Martedì, Giovedì, Venerdì</h3><p>9:00 - 18:00</p></article>
+          <article class="info-card"><h3>Mercoledì</h3><p>12:00 - 16:00</p></article>
+          <article class="info-card"><h3>Note utili</h3><p>Gli orari mostrati nella prenotazione guidata si adattano automaticamente alle fasce disponibili del giorno selezionato.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block section-soft" id="assistito">
+      <div class="container two-col-text">
+        <div>
+          <p class="eyebrow">Come diventare assistito</p>
+          <h2>Puoi fare richiesta tramite ULSS oppure dal fascicolo sanitario elettronico.</h2>
+        </div>
+        <div>
+          <p>Per diventare assistito della dottoressa, la procedura corretta è presentare la richiesta all'ULSS oppure accedere al proprio fascicolo sanitario elettronico e completare l'operazione online.</p>
+          <p>Questa sezione serve come guida rapida per orientarsi, senza sostituire le indicazioni ufficiali dell'azienda sanitaria.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block" id="info-utili">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Informazioni utili</p>
+          <h2>Cose da sapere prima di prenotare o chiedere un farmaco</h2>
+        </div>
+        <div class="utility-grid">
+          <article class="info-card"><h3>Prenotazioni</h3><p>La prenotazione visita è pensata come procedura guidata: inserisci i tuoi dati, scegli il giorno, scegli l'orario e invia la richiesta.</p></article>
+          <article class="info-card"><h3>Farmaci</h3><p>La richiesta farmaci è separata dalla prenotazione e include una nota per distinguere ricetta ripetibile e non ripetibile.</p></article>
+          <article class="info-card"><h3>Nota operativa</h3><p>Il progetto è frontend-only: nessun server e nessun database, così puoi presentare il layout e poi replicarlo con Bookly in WordPress.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block section-soft" id="prenotazione">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Prenotazioni</p>
+          <h2>Prenotazione visita e ripetizione farmaci</h2>
+          <p>Richiedi un appuntamento tramite la procedura guidata passo-passo oppure richiedi tramite il form il farmaco che ti serve.</p>
+        </div>
+
+        <div class="booking-columns">
+          <div class="booking-shell">
+             <p class="eyebrow">Prenotazione visita e ripetizione farmaci</p>
+          <h2>Richiesta appuntamento guidata in 4 step</h2>
+          <p>Compila i dati del paziente, scegli il giorno, seleziona uno slot disponibile e controlla il riepilogo prima di inviare.</p>
+            <div class="booking-progress" aria-label="Avanzamento prenotazione">
+              <span class="is-active" data-step-indicator="1">1. Dati</span>
+              <span data-step-indicator="2">2. Giorno</span>
+              <span data-step-indicator="3">3. Orario</span>
+              <span data-step-indicator="4">4. Riepilogo</span>
+            </div>
+            <form class="booking-form" id="booking-form">
+              <fieldset class="booking-step is-active" data-step="1">
+                <legend>Dati paziente</legend>
+                <div class="form-grid">
+                  <label><span>Nome</span><input type="text" name="name" autocomplete="given-name" required /></label>
+                  <label><span>Cognome</span><input type="text" name="surname" autocomplete="family-name" required /></label>
+                  <label><span>Codice fiscale</span><input type="text" name="fiscalCode" maxlength="16" required /></label>
+                  <label class="full-width"><span>Motivo della richiesta</span><textarea name="reason" rows="4" required></textarea></label>
+                </div>
+                <div class="step-actions"><button type="button" class="btn btn-primary" data-next-step>Continua</button></div>
+              </fieldset>
+              <fieldset class="booking-step" data-step="2">
+                <legend>Scelta del giorno</legend>
+                <p class="step-note">Seleziona un giorno disponibile: il calendario mostra le prossime 14 giornate.</p>
+                <div class="calendar-grid" id="calendar-grid" aria-live="polite"></div>
+                <div class="step-actions"><button type="button" class="btn btn-secondary" data-prev-step>Indietro</button><button type="button" class="btn btn-primary" data-next-step>Continua</button></div>
+              </fieldset>
+              <fieldset class="booking-step" data-step="3">
+                <legend>Scelta dell'orario</legend>
+                <p class="step-note">Gli slot vengono generati in base all'orario del giorno selezionato.</p>
+                <div class="slots-grid" id="slots-grid" aria-live="polite"></div>
+                <div class="step-actions"><button type="button" class="btn btn-secondary" data-prev-step>Indietro</button><button type="button" class="btn btn-primary" data-next-step>Continua</button></div>
+              </fieldset>
+              <fieldset class="booking-step" data-step="4">
+                <legend>Riepilogo richiesta</legend>
+                <div class="summary-box" id="booking-summary"></div>
+                <div class="step-actions"><button type="button" class="btn btn-secondary" data-prev-step>Indietro</button><button type="submit" class="btn btn-primary">Invia richiesta</button></div>
+              </fieldset>
+            </form>
+            <p class="form-feedback" id="booking-feedback" aria-live="polite"></p>
+          </div>
+
+          <div class="prescription-shell">
+            <div class="section-heading">
+              <p class="eyebrow">Richiesta farmaci</p>
+              <h2>Richiedi impegnative per le ricette</h2>
+              <p>Compila tutti i campi del form e invia la richiesta.</p>
+            </div>
+            <form class="prescription-form" id="prescription-form">
+              <div class="form-grid">
+                <label><span>Nome</span><input type="text" name="pname" required /></label>
+                <label><span>Cognome</span><input type="text" name="psurname" required /></label>
+                <label><span>Codice fiscale</span><input type="text" name="pfiscalCode" maxlength="16" required /></label>
+                <label><span>Telefono o email</span><input type="text" name="contact" required /></label>
+                <label class="full-width"><span>Farmaco richiesto</span><input type="text" name="medicine" required /></label>
+                <fieldset class="radio-group full-width">
+                  <legend>Tipo di ricetta</legend>
+                  <div class="radio-options">
+                    <label><input type="radio" name="prescriptionType" value="Ripetibile" checked /><span>Ripetibile</span></label>
+                    <label><input type="radio" name="prescriptionType" value="Non ripetibile" /><span>Non ripetibile</span></label>
+                  </div>
+                </fieldset>
+                <label class="full-width"><span>Note aggiuntive</span><textarea name="notes" rows="4"></textarea></label>
+              </div>
+              <div class="step-actions"><button type="submit" class="btn btn-primary">Invia richiesta farmaco</button></div>
+            </form>
+            <p class="form-feedback" id="prescription-feedback" aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col"><p class="footer-brand">Dott.ssa Anna Businaro</p><p class="footer-text">Medico di medicina generale e medico estetico. Qui trovi informazioni utili sui servizi, sui contatti e sulle prenotazioni.</p></div>
+      <div class="footer-col"><p class="footer-label">Sezioni principali</p><ul class="footer-links" role="list"><li><a href="./medicina-generale.html">Medicina generale</a></li><li><a href="./medicina-estetica.html">Medicina estetica</a></li><li><a href="./prenotazioni.html">Prenotazioni</a></li><li><a href="./contatti.html">Contatti</a></li></ul></div>
+      <div class="footer-col"><p class="footer-label">Social</p><ul class="footer-links" role="list"><li><a href="#">Instagram</a></li><li><a href="#">Facebook</a></li><li><a href="#">MioDottore</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><a href="./privacy-policy.html">Privacy Policy</a><a href="./cookie-policy.html">Cookie Policy</a></div>
+  </footer>
+
+  <script src="../assets/js/global.js" defer></script>
+  <script src="../assets/js/medicina-generale.js" defer></script>
+</body>
+</html>
