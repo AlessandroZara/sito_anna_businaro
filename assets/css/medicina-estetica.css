@@ -162,7 +162,6 @@
 
 .script-placeholder {
   min-height: 220px;
-  display: grid;
   place-items: center;
   padding: var(--space-6);
   border-radius: var(--radius-lg);
